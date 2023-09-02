@@ -9,16 +9,15 @@ body {
     font-family:  Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
-    height: 100vh;
-    
 }
 
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
-    padding: 2px;
+    margin-left: 22px;
+    margin-right: 22px;
 
-    font-size: 32px;
+    font-size: 34px;
     
    
     color: white;
@@ -34,7 +33,7 @@ h2 {
 }
 p{
     font-size: 24px;
-   color: black;
+   color: #5A5A5A;
   
     
 }
@@ -51,13 +50,22 @@ button {
 
 #increment-btn {
     background: darkred;
+    color: white;
 }
 
 #save-btn {
-    background: green;
+    background: darkgreen;
+    color: white;
+   
 }
 
 .hero{
     width: 400px;
+    margin: auto;
+    
+   border: 3px solid white;
+   
+   
+    
     
 }
